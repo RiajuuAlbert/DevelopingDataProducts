@@ -5543,11 +5543,10 @@ $(document).ready(function () {
 <div id="synopsis" class="section level2">
 <h2>Synopsis</h2>
 <p>This webpage was created for the Developing Data Products course as part of the Data Science Specialization offered through Coursera from Johns Hopkins University.</p>
-<p>The source code for this project can be found on GitHub: <a target="_blank" href="https://github.com/oraclejavanet/developing-data-products-course-project-1">Developing Data Products Course Project 1</a></p>
 </div>
-<div id="my-hot-wing-locations" class="section level2">
-<h2>My Hot Wing Locations</h2>
-<p>The page was built in RStudio using R Markdown and the Leaflet package to build an interactive map of my favorite hot wing locations. Attempting to explain my addiction to really good hot wings is beyond the scope of this assignment. And yes, it is an addiction!</p>
+<div id="hot-wing-locations" class="section level2">
+<h2>Hot Wing Locations</h2>
+<p>The page was built in RStudio using R Markdown and the Leaflet package to build an interactive map of the best hot wing locations.</p>
 <pre class="r"><code>library(knitr)
 library(leaflet)
 hwIcon &lt;- makeIcon(
@@ -5577,8 +5576,8 @@ hwLocations %&gt;%
   leaflet() %&gt;%
   addTiles() %&gt;%
   addMarkers(icon = hwIcon, popup = hwPopup)</code></pre>
-<div id="htmlwidget-8ed2f3a3a834fdb1f65f" style="width:672px;height:480px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-8ed2f3a3a834fdb1f65f">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addMarkers","args":[[40.684667,40.68623,40.45082,40.867617],[-80.109943,-80.101728,-80.182565,-79.922441],{"iconUrl":{"data":"images/buffalo-wing.png","index":0},"iconWidth":25,"iconHeight":50},null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},["<a href = 'http://thelube.com/' target = '_blank'>Quaker Steak and Lube<\/a>","<a href = 'https://www.buffalowildwings.com/' target = '_blank'>Buffalo Wild Wings<\/a>","<a href = 'https://www.buffalowildwings.com/' target = '_blank'>Buffalo Wild Wings<\/a>","<a href = 'http://www.villagrandeonline.com/' target = '_blank'>Villa Grande<\/a>"],null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[40.45082,40.867617],"lng":[-80.182565,-79.922441]}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-bb439cd25e5a397c466e" style="width:672px;height:480px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-bb439cd25e5a397c466e">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addMarkers","args":[[40.684667,40.68623,40.45082,40.867617],[-80.109943,-80.101728,-80.182565,-79.922441],{"iconUrl":{"data":"images/buffalo-wing.png","index":0},"iconWidth":25,"iconHeight":50},null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},["<a href = 'http://thelube.com/' target = '_blank'>Quaker Steak and Lube<\/a>","<a href = 'https://www.buffalowildwings.com/' target = '_blank'>Buffalo Wild Wings<\/a>","<a href = 'https://www.buffalowildwings.com/' target = '_blank'>Buffalo Wild Wings<\/a>","<a href = 'http://www.villagrandeonline.com/' target = '_blank'>Villa Grande<\/a>"],null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[40.45082,40.867617],"lng":[-80.182565,-79.922441]}},"evals":[],"jsHooks":[]}</script>
 </div>
 
 
