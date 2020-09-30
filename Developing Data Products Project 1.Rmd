@@ -28,15 +28,10 @@ This webpage was created for the Developing Data Products course as part of the
 Data Science Specialization offered through Coursera from Johns Hopkins
 University.
 
-The source code for this project can be found on
-GitHub: <a target="_blank" href="https://github.com/oraclejavanet/developing-data-products-course-project-1">Developing Data Products Course Project 1</a>
-
-## My Hot Wing Locations
+## Hot Wing Locations
 
 The page was built in RStudio using R Markdown and the Leaflet package to
-build an interactive map of my favorite hot wing locations. Attempting to
-explain my addiction to really good hot wings is beyond the scope of this
-assignment. And yes, it is an addiction!
+build an interactive map of the best hot wing locations.
 
 ```{r setup, include = FALSE}
 # set knitr options
