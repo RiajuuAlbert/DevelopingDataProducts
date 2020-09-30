@@ -9,9 +9,6 @@ Introduction
 
 This presentation is done as part of the final course project for 'Developing Data Products' course in the Data Science Specialization track by John Hopkins University on Coursera.
 
-The web application is hosted on the link below:
-https://yashkrsingh.shinyapps.io/ChooseYourCar/
-
 
 Application Overview
 ========================================================
